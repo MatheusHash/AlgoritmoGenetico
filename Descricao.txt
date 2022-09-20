@@ -1,0 +1,25 @@
+O presente trabalho consiste na implementação, em linguagens de programação C ou Java, de um algoritmo genético (AG) que encontre soluções para o problema do Caixeiro Viajante (TSP), tomando como base grafos não orientados, completos e valorados. Para tanto, de forma sucinta, o trabalho é composto pelas seguintes atividades:
+k = 10, 100, 
+i) Elaboração de uma função geradora de grafos não orientados, completos e valorados, com valores para k = 10, 100, 1000 ou 10000 (escolha do usuário).
+
+ii) Desenvolvimento do modelo de AG, baseado nas seguintes especificidades: 
+ - Codificação padrão de cromossomo, conforme estudado para o problema;
+ - Implementação dos métodos de seleção roleta e torneio;
+ - Crossover de dois pontos, conforme estudado;
+ - Mutação (apenas quando k = 1000 ou 10000).
+
+ ///
+
+iii) Escrita de um artigo científico nos moldes da Sociedade Brasileira de Computação (SBC). O artigo deverá ter de 8 a 12 páginas e a seguinte organização estrutural:
+ - Resumo;
+ - Introdução;
+ - Referencial Teórico (descrever o problema e a técnica);
+ - Material e Métodos;
+ - Desenvolvimento (descrever a modelagem para o problema por meio da técnica);
+ - Resultados e Discussão (apresentar tabelas e/ou gráficos para as combinações do AG com os métodos de seleção e com variação do Crossover)
+ - Conclusão;
+ - Referências Bibliográficas.
+
+Trabalho Individual ou em dupla.
+Data da entrega: 20/10/2022.
+Valor: 2,0 pontos (os critérios de divisão dos pontos serão definidos no decorrer do desenvolvimento do trabalho).
