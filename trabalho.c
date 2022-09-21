@@ -41,22 +41,31 @@ void mostraMatriz(int **matriz,int k){
     return;
 }
 
-void torneio(){
-    printf("\nToneio\n");
-    return;
+int torneio(int **matriz,int k){
+    printf("\nToneio\n\n");
+
+
+    int total, totalParcial=0, i=0;
+
+    /* Implementar função para calcular o valor de fitness */
+    srand(time(NULL));
+    fitRandomico =  rand(0,total);
+    
+    do
+    {
+        
+        /* Percorre os valores de fitness */
+
+
+    } while (totalParcial >= fitRandomico);
+    
+
+    return ;
 }
 
 
 void roleta(){
     printf("\nRoleta\n");
-    return;
-}
-
-void roleta(){
-    return;
-}
-
-void torneio(){
     return;
 }
 
@@ -84,6 +93,16 @@ void menuOpcao(){
     return;
 }
 
+
+void preencheDados(int **dados, int k){
+    for(int i = 0; i < k; i++){
+        for(int j = 0; j < 3; j++){
+            dados[i][j] = 0;
+        }
+    }
+
+return;
+}
 
 int main(){
 
